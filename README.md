@@ -226,7 +226,7 @@ bun run build:index
 ```
 
 The demo at `/` showcases the widget with a documentation site (12 Markdown files, 141 chunks).
-
+## or use the demo url (https://semantic-search-widget.vercel.app/)
 ---
 
 ## Tech Stack
