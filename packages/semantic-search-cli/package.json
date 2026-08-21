@@ -1,0 +1,22 @@
+{
+  "name": "semantic-search-cli",
+  "version": "1.0.0",
+  "description": "CLI to build a semantic search index from Markdown files",
+  "type": "module",
+  "bin": {
+    "semantic-search-cli": "src/index.ts"
+  },
+  "files": ["src"],
+  "scripts": {
+    "build:index": "bun src/index.ts --input ./content --output ./public/search-index.json"
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.3",
+    "semantic-search": "1.0.0"
+  },
+  "devDependencies": {
+    "@huggingface/transformers": "^4.2.0",
+    "typescript": "^5"
+  },
+  "license": "MIT"
+}
