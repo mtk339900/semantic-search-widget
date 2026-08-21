@@ -5,7 +5,7 @@
   "workspaces": ["packages/*"],
   "scripts": {
     "dev": "next dev -p 3000",
-    "build": "next build",
+    "build": "next build --webpack",
     "lint": "eslint .",
     "test": "vitest run",
     "build:index": "bun packages/semantic-search-cli/src/index.ts --input ./content --output ./public/search-index.json",
